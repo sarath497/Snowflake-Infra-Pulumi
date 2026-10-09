@@ -1,3 +1,7 @@
-"""A Python Pulumi program"""
+import pulumi_snowflake as snowflake
 
-import pulumi
+sales_db = snowflake.Database(
+    "sales-db",
+    name="SALES_DB",
+    comment="Managed by Pulumi"
+)

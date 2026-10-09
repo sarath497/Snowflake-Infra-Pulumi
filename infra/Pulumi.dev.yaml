@@ -1,0 +1,8 @@
+config:
+  snowflake:user: PULUMI_USER
+  snowflake:password:
+    secure: AAABANexJjhrHGVayTJ8mk3YP2qWDB0yZnQ/7lJG+5NLKnlzj0UQ67zg2Q==
+  snowflake:role: PULUMI_ADMIN
+  snowflake:warehouse: COMPUTE_WH
+  snowflake:organizationName: IRXFHIU
+  snowflake:accountName: KC44299

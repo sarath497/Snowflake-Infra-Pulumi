@@ -1,0 +1,11 @@
+name: snowflake-infra
+description: Snowflake Infrastructure as Code
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python

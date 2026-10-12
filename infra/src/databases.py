@@ -11,3 +11,9 @@ employee_db = snowflake.Database(
     name="EMPLOYEE_DB",
     comment="Managed by Pulumi"
 )
+
+MYMOBILITY_OPS = snowflake.Database(
+    "MYMOBILITY_OPS",
+    name="MYMOBILITY_OPS",
+    comment="Managed by Pulumi"
+)

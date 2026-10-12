@@ -1,0 +1,8 @@
+config:
+  snowflake:user: PULUMI_USER
+  snowflake:password:
+    secure: <set with `pulumi config set --secret snowflake:password <value>`>
+  snowflake:warehouse: COMPUTE_WH
+  snowflake:organizationName: YOUR_ORGANIZATION
+  snowflake:accountName: YOUR_ACCOUNT
+  snowflake:role: PULUMI_ADMIN
